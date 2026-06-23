@@ -1,0 +1,11 @@
+{
+    "name": "@local/dev-diary-10",
+    "private": true,
+    "version": "0.0.0",
+    "main": "./src/index.tsx",
+    "types": "./src/index.tsx",
+    "dependencies": {},
+    "peerDependencies": {
+        "solid-js": ">=1.9.5"
+    }
+}
