@@ -13,11 +13,11 @@ export default function TabCard(props: {
 
     return (
         <div class="w-full border rounded-lg">
-            <div class="h-12 w-full flex border-b max-md:text-sm">
+            <div class="h-10 w-full flex border-b max-md:text-sm">
                 <For each={Object.keys(props.tabs)}>
                     {name => (
                         <button
-                            class="cursor-pointer flex-1 text-center not-last:border-r disabled:bg-white/10"
+                            class="xs:px-2 cursor-pointer flex-1 text-center not-last:border-r disabled:bg-white/10"
                             disabled={name === active()}
                             onClick={() => setActive(name)}
                         >

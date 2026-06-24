@@ -51,7 +51,7 @@ export default function AstPreview() {
             <div class="flex flex-col border rounded-lg overflow-hidden">
                 <div class="h-12 w-full flex border-b max-md:text-sm">
                     <button
-                        class="cursor-pointer flex-1 text-center not-last:border-r disabled:bg-white/10"
+                        class="px-2 cursor-pointer flex-1 text-center not-last:border-r disabled:bg-white/10"
                         onClick={() => {
                             setCode(CODE_SAMPLE_1);
                             setStdin("");
@@ -60,7 +60,7 @@ export default function AstPreview() {
                         Simple Maths
                     </button>
                     <button
-                        class="cursor-pointer flex-1 text-center not-last:border-r disabled:bg-white/10"
+                        class="px-2 cursor-pointer flex-1 text-center not-last:border-r disabled:bg-white/10"
                         onClick={() => {
                             setCode(CODE_SAMPLE_2);
                             setStdin("");
@@ -69,7 +69,7 @@ export default function AstPreview() {
                         Powers of 2
                     </button>
                     <button
-                        class="cursor-pointer flex-1 text-center not-last:border-r disabled:bg-white/10"
+                        class="px-2 cursor-pointer flex-1 text-center not-last:border-r disabled:bg-white/10"
                         onClick={() => {
                             setCode(CODE_SAMPLE_3);
                             setStdin("6347234");
