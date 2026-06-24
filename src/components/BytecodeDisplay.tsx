@@ -81,7 +81,12 @@ export default function BytecodeDisplay(props: {
     };
 
     return (
-        <pre class="code-block h-full overflow-y-auto text-sm">
+        <pre
+            class={
+                "code-block h-full overflow-y-auto " +
+                "text-sm max-sm:text-[12px] max-xs:text-[10px]"
+            }
+        >
             <code>{code() + " "}</code>
         </pre>
     );
